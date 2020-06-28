@@ -1,6 +1,6 @@
 <div class="logo-wrapper">
   <a href="{{ "/" | relLangURL }}" class="logo">
-    <img src="favicon.ico" style="padding-right: 10px">
+    <img src="{{ "favicon.ico" | relURL }}" style="padding-right: 10px">
     {{- if .Site.Params.logoTitle -}}
       {{ .Site.Params.logoTitle }}
     {{- else -}}
