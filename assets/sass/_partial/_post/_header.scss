@@ -10,6 +10,10 @@
 
   .post-link {
     @include underline-from-center;
+    font-size: $post-title-font-size;
+    font-weight: $post-title-font-weight;
+    font-family: $global-font-family;
+    color: $theme-color;
   }
 
   .post-meta {
