@@ -189,13 +189,14 @@ $content-table-border-color: darken($deputy-color, 3%) !default;
 
 // ========== Code ========== //
 // Color of the code.
-$code-color: #c7254e !default;
+//$code-color: #c7254e !default;
+$code-color: #f8f8f2 !default;
 
 // Font size of code.
 $code-font-size: 0.9em !default;
 
 // Font family of the code.
-$code-font-family: Consolas, Monaco, Menlo, "DejaVu Sans Mono",
+$code-font-family: "Source Code Pro", Consolas, Monaco, Menlo, "DejaVu Sans Mono",
  "Bitstream Vera Sans Mono", "Courier New", monospace !default;
 
 // Color of code highlight, solarized.
@@ -259,8 +260,8 @@ $code-type-list: (
 ) !default;
 
 // Color of the code background.
-$code-background: $deputy-color !default;
-
+//$code-background: $deputy-color !default;
+$code-background: #282a36 !default;
 
 // ========== Pagination ========== //
 // Margin of the pagination.
